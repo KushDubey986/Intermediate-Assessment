@@ -54,7 +54,6 @@ transactions_df = transactions_df.filter(col("amount") > 0)
 
 transactions_df = transactions_df.dropDuplicates(["transaction_id"])
 
-# Fraud Logic (basic threshold)
 transactions_df = transactions_df.withColumn(
     "is_fraud",
     when(col("amount") > 5000, True).otherwise(False)
