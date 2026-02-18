@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  spark:
+    build: .
+    container_name: data-platform
+    volumes:
+      - .:/home/jovyan/work
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    tty: true
+
+  postgres:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: warehouse
+    ports:
+      - "5432:5432"

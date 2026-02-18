@@ -1,0 +1,48 @@
+2026-02-17 08:08:05,399 - INFO - Starting ingestion process
+2026-02-17 08:08:06,834 - INFO - Reading customers from data/raw/customers.csv
+2026-02-17 08:08:10,812 - INFO - customers rows read: 60000
+2026-02-17 08:08:13,525 - INFO - customers written to Bronze successfully
+2026-02-17 08:08:13,526 - INFO - Reading products from data/raw/products.csv
+2026-02-17 08:08:13,845 - INFO - products rows read: 5000
+2026-02-17 08:08:14,900 - INFO - products written to Bronze successfully
+2026-02-17 08:08:14,901 - INFO - Reading transactions from data/raw/transactions.csv
+2026-02-17 08:08:15,224 - INFO - transactions rows read: 152000
+2026-02-17 08:08:19,212 - INFO - transactions written to Bronze successfully
+2026-02-17 08:08:19,214 - INFO - Ingestion completed successfully
+2026-02-17 08:08:19,731 - INFO - Closing down clientserver connection
+2026-02-17 08:36:19,178 - INFO - Starting ingestion process
+2026-02-17 08:36:20,360 - INFO - Reading customers from data/raw/customers.csv
+2026-02-17 08:36:23,205 - INFO - customers rows read: 60000
+2026-02-17 08:36:25,458 - INFO - customers written to Bronze successfully
+2026-02-17 08:36:25,459 - INFO - Reading products from data/raw/products.csv
+2026-02-17 08:36:25,681 - INFO - products rows read: 5000
+2026-02-17 08:36:26,499 - INFO - products written to Bronze successfully
+2026-02-17 08:36:26,500 - INFO - Reading transactions from data/raw/transactions.csv
+2026-02-17 08:36:26,815 - INFO - transactions rows read: 152000
+2026-02-17 08:36:30,650 - INFO - transactions written to Bronze successfully
+2026-02-17 08:36:30,651 - INFO - Ingestion completed successfully
+2026-02-17 08:36:30,780 - INFO - Closing down clientserver connection
+2026-02-17 10:05:26,720 - INFO - Starting ingestion process
+2026-02-17 10:05:28,393 - INFO - Reading customers from data/raw/customers.csv
+2026-02-17 10:05:32,356 - INFO - customers rows read: 60000
+2026-02-17 10:05:35,844 - INFO - customers written to Bronze successfully
+2026-02-17 10:05:35,846 - INFO - Reading products from data/raw/products.csv
+2026-02-17 10:05:36,284 - INFO - products rows read: 5000
+2026-02-17 10:05:37,867 - INFO - products written to Bronze successfully
+2026-02-17 10:05:37,869 - INFO - Reading transactions from data/raw/transactions.csv
+2026-02-17 10:05:38,331 - INFO - transactions rows read: 152000
+2026-02-17 10:05:43,360 - INFO - transactions written to Bronze successfully
+2026-02-17 10:05:43,364 - INFO - Ingestion completed successfully
+2026-02-17 10:05:43,789 - INFO - Closing down clientserver connection
+2026-02-18 05:04:17,070 - INFO - Starting ingestion process
+2026-02-18 05:04:18,965 - INFO - Reading customers from data/raw/customers.csv
+2026-02-18 05:04:23,308 - INFO - customers rows read: 60000
+2026-02-18 05:04:27,131 - INFO - customers written to Bronze successfully
+2026-02-18 05:04:27,133 - INFO - Reading products from data/raw/products.csv
+2026-02-18 05:04:27,419 - INFO - products rows read: 5000
+2026-02-18 05:04:28,496 - INFO - products written to Bronze successfully
+2026-02-18 05:04:28,498 - INFO - Reading transactions from data/raw/transactions.csv
+2026-02-18 05:04:28,865 - INFO - transactions rows read: 152000
+2026-02-18 05:04:33,189 - INFO - transactions written to Bronze successfully
+2026-02-18 05:04:33,192 - INFO - Ingestion completed successfully
+2026-02-18 05:04:33,277 - INFO - Closing down clientserver connection

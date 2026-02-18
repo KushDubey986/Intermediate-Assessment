@@ -26,15 +26,16 @@ df = pd.DataFrame(data, columns=[
     "effective_from","effective_to"
 ])
 
-# Add SCD Type 2 changes (10% customers move region)
 updates = df.sample(int(N*0.1))
 
 scd_records = []
 for _, row in updates.iterrows():
     change_date = datetime(2026,1,1)
-    row["is_current"] = False
-    row["effective_to"] = change_date.strftime("%Y-%m-%d")
-    scd_records.append(row)
+
+    old_row = row.tolist()
+    old_row[4] = False
+    old_row[6] = change_date.strftime("%Y-%m-%d")
+    scd_records.append(old_row)
 
     scd_records.append([
         row["customer_id"],
@@ -46,7 +47,9 @@ for _, row in updates.iterrows():
         None
     ])
 
-df = pd.concat([df, pd.DataFrame(scd_records, columns=df.columns)])
+scd_df = pd.DataFrame(scd_records, columns=df.columns)
+df = pd.concat([df, scd_df], ignore_index=True)
+
 df.to_csv("../data/raw/customers.csv", index=False)
 
 print("Generated 50K customers + SCD records.")
