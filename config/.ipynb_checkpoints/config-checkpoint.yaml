@@ -1,0 +1,11 @@
+paths:
+  raw_customers: "data/raw/customers.csv"
+  raw_products: "data/raw/products.csv"
+  raw_transactions: "data/raw/transactions.csv"
+
+  bronze_customers: "data/bronze/customers"
+  bronze_products: "data/bronze/products"
+  bronze_transactions: "data/bronze/transactions"
+
+logging:
+  log_file: "logs/ingestion.log"
