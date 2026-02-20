@@ -1,10 +1,4 @@
-data/bronze/
-data/silver/
-data/gold/
-data/streaming_output/
-data/checkpoints/
-data/logs/
-data/raw/*.csv
+data/
 
 logs/
 *.log
